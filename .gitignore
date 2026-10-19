@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+*.pt
+*.pth
+*.mp4
+*.wav
+*.log
+data/
+outputs/
+checkpoints/

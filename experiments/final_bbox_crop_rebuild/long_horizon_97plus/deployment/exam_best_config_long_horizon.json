@@ -1,0 +1,18 @@
+{
+  "mode": "single",
+  "checkpoint": "experiments/final_bbox_crop_rebuild/long_horizon_97plus/checkpoints_promoted/macro_loss_resnet50_20260612_235330_val0.9798_macro0.9776_acc_gain.pt",
+  "model_name": "resnet50",
+  "image_size": 256,
+  "pad_to_square": 1,
+  "preprocessing_profile": "clean_pad",
+  "bbox_expansion_ratio": 0.08,
+  "use_tta": false,
+  "metrics": {
+    "best_top1_acc": 0.9797979797979798,
+    "best_macro_f1_present_classes": 0.9775910364145659,
+    "best_weighted_f1": 0.9788359788359787,
+    "best_score": 0.9788048552754436,
+    "val_rows": 99
+  },
+  "note": "Long-horizon 97+ best promoted over the frozen final bbox-crop baseline. TTA remains disabled."
+}

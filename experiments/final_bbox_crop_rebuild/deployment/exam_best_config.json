@@ -1,0 +1,18 @@
+{
+  "mode": "single",
+  "checkpoint": "experiments/final_bbox_crop_rebuild/checkpoints_promoted/baseline_clean_20260612_192254_resnet50_val0.9697_macro0.9423_promoted.pt",
+  "model_name": "resnet50",
+  "image_size": 256,
+  "pad_to_square": 1,
+  "preprocessing_profile": "clean_pad",
+  "bbox_expansion_ratio": 0.08,
+  "use_tta": false,
+  "metrics": {
+    "best_top1_acc": 0.9696969696969697,
+    "best_macro_f1_present_classes": 0.942296918767507,
+    "best_weighted_f1": 0.9646945646945647,
+    "best_score": 0.9653770194946666,
+    "val_rows": 99
+  },
+  "note": "Final bbox-crop rebuild best. TTA search did not improve over clean_pad_256."
+}
